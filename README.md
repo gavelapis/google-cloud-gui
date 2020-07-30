@@ -10,6 +10,10 @@ Google Cloud GUI relies on [gcloud](https://cloud.google.com/sdk/gcloud/) for au
 **Don't run Google Cloud GUI anywhere public, as any user who has access to it, would get access to all the projects that gcloud on that machine has access to!**
 
 ### Installation
+Currently, the forked project only works on a Node.js version less than 9. Since 8 is the LTS version,
+I have included that in the `.nvmrc`. To quickly switch to that version, just run `nvm use` if you
+already have `nvm` installed. If you don't have nvm installed, check out the instructions in their
+[repository](https://github.com/nvm-sh/nvm) 😁
 
 `yarn global add google-cloud-gui` (recommended)
 
